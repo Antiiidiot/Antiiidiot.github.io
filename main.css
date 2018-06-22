@@ -1,0 +1,534 @@
+ .menu ul {
+      margin: 0;
+      list-style: none;
+      padding-left: 20px;
+      display: none;
+    }
+
+    .menu .title {
+      font-size: 18px;
+      cursor: pointer;
+      margin-left: 15px;
+      padding-top: 15px;
+      color: #fff;
+    }
+
+    .menu .title::before {
+      font-size: 80%;
+      color: green;
+    }
+
+  
+
+    .menu.open ul {
+      display: block;
+    }
+
+    span .title{
+
+    }
+
+    body{
+   font-family: 'Raleway', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #DCDCDC;
+
+
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+li{
+  text-decoration: 0;
+  list-style: none;
+}
+
+.topnav{
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+
+
+.topnav a{
+  color: #000;
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+
+header{
+  width:100%;
+  height: 100vh;
+  background-image: url(BG.jpg);
+
+}
+
+#menu {
+
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    width: 200px;
+    margin-left: 50px;
+}
+
+
+
+  div .wer{
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+
+}
+
+/*
+h1{
+  color: #fff;
+  text-align: right;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 250px;
+}
+*/
+
+
+
+
+
+.title div{
+  margin-left: 50px;
+}
+
+
+#lorem{
+  color: #fff;
+  font-size: 20px;
+}
+
+
+#title{
+  color: #fff;
+  font-size: 26px;
+}
+
+
+#qwer{
+  margin-top: 150px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.portfolio{
+  margin: 0;
+  padding-top: 44px;
+  padding-bottom: 71px;
+  background-color: #DCDCDC;
+}
+
+
+.portfolio-block{
+  background-color: #fff;
+  padding-top: 29px;
+  padding-bottom: 44px;
+}
+
+.portfolio-title, .portfolio-subtitle{
+  text-align: center;
+}
+
+.portfolio-subtitle{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #8f8f8f;
+}
+
+.portfolio-col{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.portfolio-col p{
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+.portfolio-block a{
+  font-size: 14px;
+  color: #000;
+}
+
+.portfolio-block a:hover{
+  border-bottom: 2px solid #000;
+}
+
+.portfolio-col img{
+  display:block;
+  padding-top: 20px;
+}
+
+footer{
+  background-color: #808080;
+  width: 100%;
+  height: 250px;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 110px;
+}
+
+.pipka{
+  padding-bottom: 100px;
+}
+
+
+
+/*
+.button-on{
+  display: inline;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 12px 40px;
+  
+}
+*/
+
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #A9A9A9;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+.porter a{
+  color:  #696969;
+
+}
+
+.porter. a:hover{
+  border-bottom: 2px solid #000;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.porter{
+  margin-bottom: 50px;
+}
+
+.lable{
+  font-size: 24px;
+}
+
+.subtext{
+  color: #696969;
+  font-size: 14px;
+}
+
+.lower a{
+  color:  #696969;
+}
+
+.lower a:hover{
+  border-bottom: 2px solid #000;
+}
+
+
+.footer-autor{
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.footer-text{
+  margin-top: 0;
+}
+
+.footer-feedback{
+  margin-bottom: 13px;
+
+}
+
+.social-block{
+  text-align: center;
+}
+
+.social-block a{
+  display: inline-block;
+  margin-right: 13px;
+  margin-left: 20px;
+}
+
+.footer-button{
+  display: inline-block;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 12px 40px;
+}
+
+.footer-cta-block{
+  text-align: center;
+}
+
+.footer-cta-block p{
+  font-size: 18px;
+}
+
+.social-block p{
+  font-size: 18px;
+}
+
+.pipka h3{
+  font-size: 24px;
+}
+
+
+.pipka p{
+  font-size: 18px;
+}
+
+
+.logo{
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+}
+
+@media (max-width: 1200px) {
+  #title{
+    font-size: 28px;
+  }
+
+  #lorem{
+    font-size: 20px;
+  }
+
+  div .wer{
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    margin-left: 20px;
+
+}
+
+#qwer{
+  margin-top: 100px;
+}
+
+#menu{
+  margin-left: 15px;
+  width: 200px
+}
+
+.topnav a{
+  font-size: 18px;
+}
+
+}
+
+
+@media (max-width: 992px) {
+
+  .social-block a{
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 10px;
+  }
+
+.social-block img{
+  width: 40px;
+}
+
+#title{
+  font-size: 24px;
+}
+
+#lorem{
+  font-size: 18px;
+}
+
+#menu{
+  margin-left: 15px;
+  width: 200px;
+}
+
+.topnav a{
+  font-size: 18px;
+}
+
+}
+
+
+@media (max-width: 800px) {
+
+  .social-block img{
+  width: 25px;
+}
+
+footer .social-block a{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+
+
+  .logo{
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+}
+
+    #title{
+    font-size: 20px;
+  }
+
+  #lorem{
+    font-size: 15px;
+  }
+
+  .pipka h3{
+    font-size: 18px;
+  }
+
+  .pipka p{
+    font-size: 14px;
+  }
+
+  .footer-button{
+  display: inline-block;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 7px 30px;
+}
+
+.footer-feedback{
+  margin-bottom: 13px;
+
+}
+
+#loy{
+   font-size: 14px;
+}
+
+#lop{ 
+  font-size: 15px;
+ }
+
+
+.lable{
+  font-size: 18px;
+}
+.subtext{
+  font-size: 12px;
+}
+
+.signin{
+  font-size: 14px;
+}
+
+.footer-autor{
+  font-size: 17px;
+}
+
+.footer-text{
+  font-size: 12px;
+}
+
+.social-block p{
+  font-size: 17px;
+}
+
+.footer-feedback{
+  font-size: 17px;
+}
+
+.portfolio-col p{
+  font-size: 12px;
+}
+
+.portfolio-col h3{
+  font-size: 16px;
+}
+
+.portfolio-title{
+  font-size: 20px;
+}
+.portfolio-subtitle{
+  font-size: 14px;
+}
+
+.topnav a{
+  font-size: 16px;
+}
+
+#menu{
+  width: 200px;
+  margin-left: 15px;
+}
+
+.portfolio-col a{
+  font-size: 12px;
+}
+
+
+}
